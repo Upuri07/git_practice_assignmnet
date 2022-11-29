@@ -1,14 +1,15 @@
 var num=13;
 Var count=0;
-for(var I=0;i<=num;i++){
+for(var i=0;i<=num;i++){
 
-if(num%i==1){
+if(num%i==0){
 count++;
 }
 
 }
-if(count==3){
+if(count==2){
 console.log("prime");
 }
 else{
  	console.log("not prime");
+}
